@@ -1,4 +1,4 @@
-import './exercises/zero';
+import './setup/intro';
 
-//uncomment eac import one by one until you complete the exercise.
+//uncomment each import one by one until you complete the exercise.
 //import './exercises/one';
