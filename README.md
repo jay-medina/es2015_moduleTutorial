@@ -15,5 +15,12 @@ caused by the unit tests.
 
 
 # Exercises
-ES2015 provides a template for importing and exporting.
+- one.js   - warm up - current status amd modules,
+- two.js   - import 3rd party - using new es6 syntax import jQuery,
+- three.js - export/import default - creating a default export and importing that file,
+- four.js  - export/import default shorthand - exporting using shorthand notation,
+- five.js  - export/import individual - exporting and importing individual features,
+- six.js   - amd to es2015 - import amd module into es2016 module,
+- seven.js - es2015 to amd - import es2015 module into amd module,
+- final.js - eight.js - all together now.
 
