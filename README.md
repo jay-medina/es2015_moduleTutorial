@@ -24,3 +24,8 @@ caused by the unit tests.
 - seven.js - es2015 to amd - import es2015 module into amd module,
 - final.js - eight.js - all together now.
 
+#More info
+MDN is always trusted
+import in depth - [MDN import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+export in depth - [MDN export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+
