@@ -1,0 +1,11 @@
+{
+  "name": "moduletutorial",
+  "version": "1.0.0",
+  "description": "Tutorial to teach how to import/export es6 modules",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jomedina@microsoft.com",
+  "license": "ISC"
+}
