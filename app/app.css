@@ -1,0 +1,17 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.intro {
+  margin-top: 1rem;
+  border: 1px dotted;
+  border-radius: 3px;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.board {
+  margin: 1rem 0;
+}
