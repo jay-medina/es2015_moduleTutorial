@@ -1,8 +1,9 @@
 /**
  * Welcome to the module tutorial.  To start off, lets do a warm up exercise.
- * Create an AMD modules in order to get this code working.
- * Please fix the code to get it working.
+ * 1) Create an AMD module in order to get funnyMath working.
+ * 2) Please import colorInBox module.
  */
+
 define(function (require) {
   var funnyMath = require('./funnyMath');
 
