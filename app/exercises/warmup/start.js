@@ -1,5 +1,5 @@
 /**
- * Welcome to the module tutorial.  To start off, lets do a warm up exercise.
+ * To start off, lets do a warm up exercise.
  * 1) Create an AMD module in order to get funnyMath working.
  * 2) Please import colorInBox module.
  */
