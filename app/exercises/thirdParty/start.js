@@ -18,10 +18,10 @@
  *  import BaseView from 'core/lib/backbone_base_view';
  *
  * Task:
- *  1) Rewrite the jQuery import, so that the it uses es2015 import instead of AMD
+ *  1) Rewrite the jQuery import, so that it uses es2015 import instead of AMD
+ *  2) import colorInBox, so that it uses es2015 import instead of AMD
  */
 var $ = require('jquery');
-var colorInBox = require('../colorInBox');
 
 colorInBox($('.two'));
 
