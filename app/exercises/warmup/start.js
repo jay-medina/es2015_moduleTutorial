@@ -8,6 +8,6 @@ define(function (require) {
   var funnyMath = require('./funnyMath');
 
   if (funnyMath.add(2, 3) === 5) {
-    colorInBox('one');
+    colorInBox($('.one'));
   }
 });

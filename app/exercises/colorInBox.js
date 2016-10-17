@@ -1,8 +1,7 @@
 define(function (require) {
-  var $ = require('jquery');
 
-  return function colorInBox(boxNumber) {
-    $(`.${boxNumber}`).addClass('complete');
+  return function colorInBox($box) {
+    $box.addClass('complete');
   };
 
 
