@@ -1,18 +1,18 @@
 import $ from 'jquery';
 
 const views = [
-  'warm up - one.js',
-  'import 3rd party - two.js',
-  'export/import default - three.js',
-  'export/import default shorthand - four.js',
-  'export/import individual - five.js',
-  'amd to es6 - six.js',
-  'es6 to amd - seven.js',
-  'final - eight.js'
+  { text: 'warm up', className: 'one' },
+  { text: 'import 3rd party', className: 'two' },
+  { text: 'export/import default', className: 'three' },
+  { text: 'export/import default shorthand', className: 'four' },
+  { text: 'export/import individual', className: 'five' },
+  { text: 'amd to es6', className: 'six' },
+  { text: 'es6 to amd', className: 'seven' },
+  { text: 'final', className: 'eight' }
 ];
 
-function createView(text) {
-  return $('<div class="lesson_incomplete" />').text(text);
+function createView(view) {
+  return $(`<div class="lesson_incomplete ${view.className}" />`).text(view.text);
 }
 
 function run() {

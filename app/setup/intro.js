@@ -5,7 +5,7 @@ import '../app.css';
 var template = `
   <p>Welcome.</p>
   <p>
-    Please open run.js. and follow these instructions.
+    Please open run.js. and follow the instructions.
     As each file is successfully imported. A new block is colored in.
   </p>
 `;
