@@ -1,17 +1,28 @@
-body {
+html, body {
   max-width: 800px;
   margin: 0 auto;
   font-size: 14px;
 }
 
 .intro {
-  margin-top: 1rem;
+  margin: 1rem 0.25rem;
   border: 1px dotted;
   border-radius: 3px;
   font-size: 2rem;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 .board {
   margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson_incomplete {
+  border: 1px dotted;
+  padding: 2rem 1rem;
+  margin: 0.5rem 0.25rem;
+  border-radius: 3px;
+  font-size: 1.25rem;
+  flex-grow: 1;
 }
