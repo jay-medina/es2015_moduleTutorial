@@ -10,7 +10,7 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - Clone repo.
 - Run `npm install`.
 - Run `npm run start`.
-- Click on this link: [localhost](http://localhost:8080/webpack-dev-server)
+- Load <http://localhost:8080/>.
 
 
 # Exercises
