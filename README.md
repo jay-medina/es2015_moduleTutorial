@@ -20,7 +20,6 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - -optional- export/import default shorthand - exporting using shorthand notation,
 - export/import individual - exporting and importing individual features,
 - export/import individual with alias - using alias with export/import.
-- amd to es2015 - import amd module into es2016 module,
 - es2015 to amd - import es2015 module into amd module,
 - final.js - all together now.
 

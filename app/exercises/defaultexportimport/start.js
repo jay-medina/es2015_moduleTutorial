@@ -52,9 +52,21 @@
  *
  *  startLightBox();
  *
- * The reasoning for a default export is because there are multiple ways to import items in ES2015.
- * If as a developer, we wanted an all encompassing way to export items (similar to AMD), then this
- * would be a perfect use.  With the next tutorial, we will get into import/export individual items.
+ * The reasoning for a default export is designed to interoperate with existing CommonJS and AMD modules.
+ * If a developer, wanted an all encompassing way to export items (similar to AMD), then this
+ * would be perfect.
+ *
+ * Examples of 3rd party:
+ *
+ *  import $ from 'jquery';
+ *  import _ from 'underscore';
+ *
+ * This is actually the shorthand for the following:
+ *
+ *  import { default as $ } from 'jquery';
+ *  import { default as _ } from 'underscore';
+ *
+ * We will get into alias and import/export individual items in the next lessons.
  *
  *
  * Task:
