@@ -33,3 +33,17 @@ html, body {
 .complete.two {
   background: #B388FF;
 }
+.complete.three {
+  background: #FFB300;
+}
+.complete.three.striped {
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #FFB300,
+    #FFB300 10px,
+    #ff4200 10px,
+
+    #ff4200 20px
+  );
+}

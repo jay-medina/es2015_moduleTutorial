@@ -6,7 +6,9 @@
  *
  * import syntax is described as the following:
  *
- * import <name> from <path>;
+ *
+ *    import <name> from <path>;
+ *
  *
  * import: keyword used
  * <name>: name of the library/framework/file to import
