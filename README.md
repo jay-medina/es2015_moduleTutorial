@@ -24,8 +24,8 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - final.js - all together now.
 
 #More info
-MDN is always a trusted source.
-
 #### import in depth - [MDN import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 #### export in depth - [MDN export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+#### ES6 in depth modules from [mozilla](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/)
+#### Exploring ES6 Book - modules - [Link](http://exploringjs.com/es6/ch_modules.html)
 
