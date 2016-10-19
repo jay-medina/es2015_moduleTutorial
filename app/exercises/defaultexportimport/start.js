@@ -59,12 +59,15 @@
  *
  * Task:
  *  1) import fillInBox.js using default import syntax.
+ *
  *  2) fix fillInBox so that it exports an expression using the default keyword.
  *   - Take liberty in however you want to solve this as long as you use the keyword 'default'.
- *  3) **This is a dumb optional challenge** - There is a css class that will stripe the third color box,
- *     Create a module that contains a function called 'addStripes'. That function will query the element '.three',
- *     and add a className 'striped'.
+ *
+ *  3) ** This is a dumb optional challenge ** - There is a css class that will stripe the third color box,
+ *     Create a module that contains a function called 'addStripes'. That function will accept an element,
+ *     and add a className 'striped'. Add striped to the DOM element '.three'.
  *
  *     Ex:   import striped from './addStripesToThree';
- *           striped.addStripes(); // then the magic happens
+ *           var $three = $('.three');
+ *           striped.addStripes($three); // then the magic happens
  */
