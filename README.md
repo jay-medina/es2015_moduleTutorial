@@ -17,7 +17,7 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - warm up - review of current knowlegde, amd modules
 - import 3rd party - using new es6 syntax import jQuery,
 - export/import default - creating a default export and importing that file,
-- -optional- export/import default shorthand - exporting using shorthand notation,
+- export/import default shorthand - exporting using shorthand notation,
 - export/import individual - exporting and importing individual features,
 - export/import individual with alias - using alias with export/import.
 - es2015 to amd - import es2015 module into amd module,

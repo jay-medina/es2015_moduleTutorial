@@ -47,3 +47,7 @@ html, body {
     #ff4200 20px
   );
 }
+.complete.four {
+  background: #EC407A;
+  color: white;
+}

@@ -6,8 +6,8 @@ const views = [
   { text: 'export/import default', className: 'three' },
   { text: 'export/import default shorthand', className: 'four' },
   { text: 'export/import individual', className: 'five' },
-  { text: 'amd to es6', className: 'six' },
-  { text: 'es6 to amd', className: 'seven' },
+  { text: 'export/import individual with alias', className: 'six' },
+  { text: 'es2015 to amd', className: 'seven' },
   { text: 'final', className: 'eight' }
 ];
 
