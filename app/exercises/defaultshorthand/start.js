@@ -58,7 +58,7 @@ const map = hof.map;
 const concat = hof.concat;
 const every = hof.every;
 
-const r1 = every(map([1, 2, 3], x => 3), x=> x === 3);
+const r1 = every( map([1, 2, 3], x => 3), x => x === 3);
 const r2 = every([0, 1, 2, 3, 4], x => x > 0) === false;
 const r3 = concat([1],[2,3]).length === 3;
 
