@@ -58,8 +58,12 @@ const map = hof.map;
 const flatten = hof.flatten;
 const every = hof.every;
 
+const r1 = every(map([1, 2, 3], x => 3), x=> x === 3);
+const r2 = every([0, 1, 2, 3, 4], x => x > 0) === false;
+const r3 = every(flatten([[1], [2], [3]]), x => !(x instanceof Array));
+
 const results = map(flatten(arrOfNumbers), x => x + 10);
 
-if (every(results, x => x !== 0)) {
+if ( r1 && r2 && r3 && every(results, x => x !== 0) ) {
   fillInBox();
 }
