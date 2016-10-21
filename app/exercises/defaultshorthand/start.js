@@ -51,7 +51,7 @@
  */
 
 import hof from './higherOrderFunctions';
-import fillInBox from '../fillInBox';
+import fillInBox from './fillInBox';
 
 const arrOfNumbers = [[1], [2], [3], [4], [5]];
 const map = hof.map;
