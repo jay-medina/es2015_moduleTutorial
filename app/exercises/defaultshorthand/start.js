@@ -40,29 +40,29 @@
  * Task:
  *  1) We are going to write a module that contains three functions to manipulate over an array.
  *    a) Map function
- *    b) Flatten function
+ *    b) concat function
  *    c) every function
  *  2) Get the code below working.
  *
  * Expected Results:
  *  map([1,2,3], function(x){ return x + 2; }); ---> [3,4,5]
- *  flatten([[1],[2],[3]]) ---> [1,2,3]
+ *  concat([1,2,3], [3,2,1]) ---> [1,2,3,3,2,1]
  *  every([0,1,2,3,4], function(x) { return x > 0;}); ---> false (because 0 is NOT > 0)
  */
 
 import hof from './higherOrderFunctions';
 import fillInBox from './fillInBox';
 
-const arrOfNumbers = [[1], [2], [3], [4], [5]];
+const arrOfNumbers = [1,2,3,4,5];
 const map = hof.map;
-const flatten = hof.flatten;
+const concat = hof.concat;
 const every = hof.every;
 
 const r1 = every(map([1, 2, 3], x => 3), x=> x === 3);
 const r2 = every([0, 1, 2, 3, 4], x => x > 0) === false;
-const r3 = every(flatten([[1], [2], [3]]), x => !(x instanceof Array));
+const r3 = concat([1],[2,3]).length === 3;
 
-const results = map(flatten(arrOfNumbers), x => x + 10);
+const results = map(concat(arrOfNumbers, [6]), x => x + 10);
 
 if ( r1 && r2 && r3 && every(results, x => x !== 0) ) {
   fillInBox();
