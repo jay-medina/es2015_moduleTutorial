@@ -51,3 +51,7 @@ html, body {
   background: #EC407A;
   color: white;
 }
+
+.complete.five {
+  background: #26A69A;
+}

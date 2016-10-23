@@ -34,6 +34,7 @@
  */
 
 import ___ from 'lib';
+import $ from 'jquery';
 
 if (sqrt(169) === 13) {
   colorInBox($('.five'));
