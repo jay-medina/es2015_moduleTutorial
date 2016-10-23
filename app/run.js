@@ -9,3 +9,4 @@ import './setup/intro';
 //import './exercises/thirdParty/start';
 //import './exercises/defaultexportimport/start';
 //import './exercises/defaultshorthand/start';
+//import './exercises/individual/start';
