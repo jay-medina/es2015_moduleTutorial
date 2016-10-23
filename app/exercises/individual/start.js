@@ -33,7 +33,8 @@
  *  2) import the sqrt function here to fix the code issue and color in the box.
  */
 
-import ___ from 'lib';
+import ___ from './lib';
+import colorInBox from '../colorInBox';
 import $ from 'jquery';
 
 if (sqrt(169) === 13) {
