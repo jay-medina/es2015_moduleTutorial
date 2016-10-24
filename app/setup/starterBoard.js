@@ -6,8 +6,9 @@ const views = [
   { text: 'export/import default', className: 'three' },
   { text: 'export/import default shorthand', className: 'four' },
   { text: 'export/import named individual', className: 'five' },
-  { text: 'export/import named individual part 2', className: 'six' },
+  { text: 'export/import named individual pt. 2', className: 'six' },
   { text: 'export/import named individual with alias', className: 'seven' },
+  { text: 'export/import named individual w/ alias pt. 2', className: 'seven' },
   { text: 'es2015 to amd', className: 'eight' },
   { text: 're-exporting modules', className: 'nine' }
 ];

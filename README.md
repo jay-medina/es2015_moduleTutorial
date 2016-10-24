@@ -21,6 +21,7 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - export/import named individual - exporting and importing individual features inline,
 - export/import named individual pt. 2 - exporting and importing individual features,
 - export/import named individual with alias - using alias with export/import.
+- export/import named individual with alias pt. 2 - using alias to import/export everything.
 - es2015 to amd - import es2015 module into amd module,
 - re-exporting modules - having everything all in one module.
 

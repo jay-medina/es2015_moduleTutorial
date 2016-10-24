@@ -4,13 +4,16 @@
  * Named individual imports and exports pt. 2
  *
  * Previous exercise went over exporting multiple items by using 'export' keyword.
- * These exports are called named exports.
+ * These items are called named exports.
  *
  * The syntax of exporting individual items might be a bit jarring and different
  * from commonjs / AMD modules. In light of this, there is another way to export individual
  * items and reap all of the benefits.
  *
- * export { name, name2 };
+ * Syntax:
+ * export { name, name2, name3, name4, ... };
+ *
+ *
  *
  * Example:
  * // **** lib.js *****
