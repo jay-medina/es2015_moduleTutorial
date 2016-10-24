@@ -10,13 +10,6 @@
  * from commonjs / AMD modules. In light of this, there is another way to export individual
  * items and reap all of the benefits.
  *
- * The other syntax is writing all of the code upfront, then the last line would indicate what to export.
- *
- * export { name: <expression>, name2: <expression2> };
- *
- *
- * If the name and expression are the same, we can use the shorthand syntax.
- *
  * export { name, name2 };
  *
  * Example:

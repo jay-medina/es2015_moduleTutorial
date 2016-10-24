@@ -10,4 +10,4 @@ import './setup/intro';
 //import './exercises/defaultexportimport/start';
 //import './exercises/defaultshorthand/start';
 //import './exercises/individual/start';
-//import './exercises/individualwithalias/start';
+//import './exercises/individual2/start';
