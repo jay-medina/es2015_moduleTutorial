@@ -18,10 +18,11 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 - import 3rd party - using new es6 syntax import jQuery,
 - export/import default - creating a default export and importing that file,
 - export/import default shorthand - exporting using shorthand notation,
-- export/import named individual - exporting and importing individual features,
+- export/import named individual - exporting and importing individual features inline,
+- export/import named individual pt. 2 - exporting and importing individual features,
 - export/import named individual with alias - using alias with export/import.
 - es2015 to amd - import es2015 module into amd module,
-- final.js - all together now.
+- re-exporting modules - having everything all in one module.
 
 #More info
 #### import in depth - [MDN import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)

@@ -1,7 +1,7 @@
 /**
  *
  * Exercise 5!
- * Named individual imports / exports
+ * Named individual imports / exports inline
  *
  * A module can export multiple things by prefixing its declaration with the keyword
  * 'export'. These exports are interpreted by their name hence being called "named exports".
@@ -29,7 +29,7 @@
  *  console.log(cube(3)); //27
  *
  *  Task:
- *  1) Export a function sqrt in lib.js.
+ *  1) Implement and export a function sqrt in lib.js.
  *  2) import the sqrt function here to fix the code issue and color in the box.
  */
 
