@@ -14,7 +14,7 @@ Tutorial is exercise based, it will describe a problem and ask you to work throu
 
 
 # Exercises
-- warm up - review of current knowlegde, amd modules
+- warm up - review of current knowledge, amd modules
 - import 3rd party - using new es6 syntax import jQuery,
 - export/import default - creating a default export and importing that file,
 - export/import default shorthand - exporting using shorthand notation,
