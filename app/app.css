@@ -63,3 +63,13 @@ html, body {
 .complete.seven {
   background: #BDBDBD;
 }
+
+.complete.eight {
+  background: #C62828;
+  color: white;
+}
+
+.complete.nine {
+  background: #5E35B1;
+  color: white;
+}
