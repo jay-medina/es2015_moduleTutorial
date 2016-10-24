@@ -8,9 +8,9 @@ const views = [
   { text: 'export/import named individual', className: 'five' },
   { text: 'export/import named individual pt. 2', className: 'six' },
   { text: 'export/import named individual with alias', className: 'seven' },
-  { text: 'export/import named individual w/ alias pt. 2', className: 'seven' },
-  { text: 'es2015 to amd', className: 'eight' },
-  { text: 're-exporting modules', className: 'nine' }
+  { text: 'export/import named individual w/ alias pt. 2', className: 'eight' },
+  { text: 'es2015 to amd', className: 'nine' },
+  { text: 're-exporting modules', className: 'ten' }
 ];
 
 function createView(view) {

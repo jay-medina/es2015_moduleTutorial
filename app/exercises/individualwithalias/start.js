@@ -43,7 +43,7 @@
  * Back in default with shorthand exercise, we implemented a higher order function module.
  * 1) Copy that module into folder.
  * 2) Instead of using default export, convert it to use named individual exports.
- * 3) Using alias, make the code below work.
+ * 3) Add collect and all using alias to make the code below work.
  *
  */
 
