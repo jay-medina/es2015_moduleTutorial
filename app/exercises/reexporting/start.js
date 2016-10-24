@@ -8,10 +8,15 @@
  * everything.  This is great for refactoring large modules into smaller chunks.
  *
  * Note: when exporting from a different module, "default" exports are ignored.
+ * Also, be careful about using * export. If two methods contain the same name, it will produce
+ * an error, 'typeerror: cannot redefine property'. In this case, you would have to use an individual
+ * named export and give it an alias. See example syntax below.
+ *
  *
  * Syntax:
  *
  *  export * from <path>;
+ *  export { name as otherName } from <path>;
  *
  * Example:
  *
