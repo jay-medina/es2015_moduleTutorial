@@ -47,7 +47,7 @@
  *
  *
  * Task:
- *  Write a module that intreprets rational numbers.
+ *  Write a module that interprets rational numbers.
  *  1) the module will have 4 methods.
  *     - create (accepts 1 or 2 numbers)
  *     - add    (accepts 2 rational numbers)
