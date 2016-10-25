@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import * as complete from './complete';
 import starterBoard from './starterBoard';
 import '../app.css';
 
@@ -11,9 +12,12 @@ var template = `
 `;
 
 var $app = $('#app');
+complete.run($app);
+
 var $div = $('<div class="intro"/>');
 $div.html(template);
 
 $app.append($div);
 
 $app.append(starterBoard.run());
+

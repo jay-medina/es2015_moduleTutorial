@@ -4,7 +4,7 @@ html, body {
   font-size: 14px;
 }
 
-.intro {
+.intro, .allcomplete {
   margin: 1rem 0.25rem;
   border: 1px dotted;
   border-radius: 3px;
@@ -76,4 +76,18 @@ html, body {
 
 .complete.ten {
   background: #00ACC1;
+}
+
+.allcomplete {
+  display: none;
+  color: #ef0303;
+  padding: 4rem 1rem;
+  text-align: center;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1rem solid;
+}
+.allcomplete.show {
+  display: block;
 }
