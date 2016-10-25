@@ -35,7 +35,7 @@ define(function (require) {
   var colorInBox = require(___);
 
   if (defaultModule.shape() === 'triangle' && namedModule.three() === 'three') {
-    colorInBox($('ten'));
+    colorInBox($('.ten'));
   }
 
 });
