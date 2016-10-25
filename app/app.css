@@ -73,3 +73,7 @@ html, body {
   background: #5E35B1;
   color: white;
 }
+
+.complete.ten {
+  background: #00ACC1;
+}

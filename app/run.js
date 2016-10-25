@@ -13,3 +13,4 @@ import './setup/intro';
 //import './exercises/individual2/start';
 //import './exercises/individualwithalias/start';
 //import './exercises/reexporting/start';
+//import './exercises/newinold/start';
