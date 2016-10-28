@@ -7,7 +7,7 @@
     "build": "webpack",
     "start": "webpack-dev-server --hot --inline"
   },
-  "author": "jomedina@microsoft.com",
+  "author": "josemedina921@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.17.0",
