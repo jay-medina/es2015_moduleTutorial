@@ -13,12 +13,12 @@ export function run($app) {
 
 
   const intervalInstance = setInterval(function () {
-  const allComplete = exercises.every(exercise => $(`.${exercise}`).hasClass('complete'));
+    const allComplete = exercises.every(exercise => $(`.${exercise}`).hasClass('complete'));
 
-  if (allComplete) {
-    $complete.addClass('show');
-    clearInterval(intervalInstance);
-  }
+    if (allComplete) {
+      $complete.addClass('show');
+      clearInterval(intervalInstance);
+    }
   }, 1000);
 
 }
