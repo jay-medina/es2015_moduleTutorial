@@ -75,3 +75,10 @@ console.log('num1:', Rational.toString(num1));
 console.log('num2:', Rational.toString(num2));
 console.log('newNum1:', Rational.toString(newNum1));
 console.log('newNum2:', Rational.toString(newNum2));
+
+if (Rational.toString(newNum1) === '13/10' &&
+    Rational.toString(newNum2) === '-3/10') {
+
+  colorInBox($('.eight'));
+
+   }
